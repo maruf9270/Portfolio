@@ -7,10 +7,10 @@ import experienceData from '../../data/experience.json'
 
 const Experience = () => {
   return (
-    <Section title="Experience">
+    <Section title="Projects">
       <div className="experience-content">
         <ul className="experience-list">
-          {experienceData.experience.reverse().map((exp) => (
+          {experienceData.experience.map((exp) => (
             <li key={`experience-${exp.company}`}>
               <Fade bottom duration={1000} distance="20px">
                 <ExperienceCard experience={exp} />
@@ -25,22 +25,7 @@ const Experience = () => {
               justifyContent: 'center',
             }}
           >
-            <p style={{ textAlign: 'center' }}>
-              Further in-depth experience pre 2020 can be found on my{' '}
-              <a
-                href="https://www.linkedin.com/in/mjigalin/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  textDecoration: 'none',
-                  color: '#0be779',
-                  cursor: 'pointer',
-                }}
-              >
-                LinkedIn
-              </a>
-              .
-            </p>
+           
           </div>
         </Fade>
       </div>

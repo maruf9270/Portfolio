@@ -8,8 +8,9 @@ import Typewriter from 'typewriter-effect'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
 import config from '../../config'
-import profile from '../../images/matt.png'
-import linkedin from '../../images/social/linkedin.png'
+import profile from '../../images/profile.jpg'
+
+import resume from "../../images/Resume edited.pdf"
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -26,7 +27,7 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Matthew Jigalin</span>.{' '}
+              Hi, I'm <span className="name">Maruf Ahmed</span>.{' '}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -51,11 +52,11 @@ const Home = () => {
             <Bounce cascade>
               <div className="links">
                 <a
-                  href="https://www.linkedin.com/in/mjigalin/"
-                  target="_blank"
+                href={resume} download={"Maruf's Resume.pdf"}
                   rel="noopener noreferrer"
                 >
-                  <img src={linkedin} alt="Linkedin Logo" width="50px" />
+                  {/* <img src={linkedin} alt="Linkedin Logo" width="50px" /> */}
+                  <button className='button-r'>Resume</button>
                 </a>
               </div>
             </Bounce>

@@ -2,48 +2,51 @@
   "experience": [
     {
       "id": 0,
-      "link": "https://www.8secondz.com/",
-      "company": "8secondz",
-      "title": "Creative Lead - Web & App Teams",
-      "dateFrom": "June 2020",
-      "dateTo": "July 2021",
+      "link": "https://mobilely-50732.web.app/",
+      "company": "Mobilely",
+      "title": "Secondhand mobile buying and selling website",
+      "dateFrom": "Nov 2020",
+      "dateTo": "Current",
       "info": [
-        "Responsible for web team front-end development and design",
-        "Led in app UI/UX & company wide creative media content"
+        "Implemented OAuth system using Firebase for authentication",
+        "Implemented three user role admin, buyer and seller"
+        ,"Admin can control buyer and seller and delete products "
       ],
-      "stack": ["Vue.js", "Nuxt.js", "Node.js", "AWS"],
+      "stack": ["React.js", "Tailwind", "Firebase", "Node.js", "Express.js","Axios","JWT","Stripe","Mongodb"],
       "logoheight": 80,
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
       "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 1,
-      "link": "https://www.psykinetic.com",
-      "company": "Psykinetic",
-      "title": "Immersive Tech & Web Developer",
-      "dateFrom": "August 2020",
+      "link": "https://ma-consulting.web.app/",
+      "company": "Ma-Consulting",
+      "title": "Accounting Service providing website",
+      "dateFrom": "October 2022",
       "dateTo": "Current",
       "info": [
-        "Developing VR application with UE4 and C++ for Oculus Quest",
-        "Web design & development of web platform using wix"
+        "Implemented OAuth with firebase for user authentication with email, password and Google , github",
+        "Implemented service review functionality on login",
+        "Implemented add service section for adding accouting related sercice"
       ],
-      "stack": ["C++", "UE4", "VR", "Web Design"],
+      "stack": ["React.js","Firebase","Express.js","Tailwind","Node.js","Mongodb","JWT"],
       "logowidth": 80,
       "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
-      "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
+      "colourSecondary": "linear-gradient(to bottom, #FFFFFF, #FFFFFF)"
     },
     {
       "id": 2,
-      "link": "https://www.cactuscan.com",
-      "company": "CactusCan",
-      "title": "Creative Lead",
-      "dateFrom": "2016",
+      "link": "https://code-with-maruf.web.app/",
+      "company": "Code-With-Maruf",
+      "title": "Online code learnig platform",
+      "dateFrom": "September 2022",
       "dateTo": "Current",
       "info": [
-        "Co-founding CactusCan in 2015 has led to many exciting projects with incredible customers.",
-        "Web design, marketing, media and customer engagement."
+        "Implemented OAuth system using Firebase for authentication",
+        "Added many courses for premium access",
+        "Added react-pdf to download pdf details of the course."
       ],
-      "stack": ["React", "Marketing", "Design", "UI/UX"],
+      "stack": ["React.js","Firebase","Express.js","Tailwind","Node.js","Mongodb"],
       "logowidth": 80,
       "colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
       "colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"

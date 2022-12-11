@@ -7,6 +7,7 @@ import linkedin from '../../images/social/linkedin.png'
 import github from '../../images/social/github.png'
 import facebook from '../../images/social/facebook.png'
 
+
 const Contact = () => {
   return (
     <Section title="Contact">
@@ -14,14 +15,14 @@ const Contact = () => {
       <Bounce cascade>
         <div className="links">
           <a
-            href="https://github.com/jigalin"
+            href="https://github.com/maruf9270"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={github} alt="Github Logo" width="40px" />
           </a>
           <a
-            href="https://www.linkedin.com/in/mjigalin/"
+            href="https://www.linkedin.com/in/marufahmed5480/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,12 +30,21 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.facebook.com/matthew.jigalin/"
+            href="https://www.facebook.com/Maruf.Ahmed.5480"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={facebook} alt="Facebook Logo" width="40px" />
           </a>
+          
+          <a
+            href="https://www.linkedin.com/in/marufahmed5480/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedin} alt="Linkedin Logo" width="40px" />
+          </a>
+          
         </div>
       </Bounce>
     </Section>

@@ -109,6 +109,7 @@
 }
 .company-logo {
   max-width: 150px;
+  border-radius: 50px;
   z-index: 1;
   pointer-events: none;
 }
